@@ -1,7 +1,7 @@
 module.exports =  function reverse (ints) {
     let rev = '';
     ints = Math.abs(ints);
-    ints = arg.toString();
+    ints = ints.toString();
 
     for (let i = 0; i < ints.length; i++) {
 
